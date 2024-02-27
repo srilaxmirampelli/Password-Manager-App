@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  min-height: 100vh;
+  background-color: #9ba9eb;
+  padding: 25px;
+}
+.app-logo {
+  width: 140px;
+  height: 50px;
+}
+.add-password-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+}
+.your-passwords-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.password-manager-img {
+  width: 100%;
+  background-position: center;
+}
+.add-password-card {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 12px;
+}
+.card-heading {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.input-element-card {
+  background-color: #f8fafc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 18px;
+}
+
+.input-element-icon {
+  width: 40px;
+  padding: 6px;
+}
+.input-element {
+  background-color: transparent;
+  border-width: 0;
+  outline: none;
+  color: black;
+  overflow: auto;
+  font-size: 12px;
+  width: 100%;
+  border-left: 1px solid #c3caea;
+  padding: 5px;
+  font-weight: 400;
+}
+.add-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.add-btn {
+  background-color: #0b69ff;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 5px;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  border-width: 0;
+  cursor: pointer;
+  outline: none;
+}
+.password-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.password-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.password-count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.password-count {
+  background-color: transparent;
+  border-radius: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border: 2px solid #c3caea;
+  margin: 0;
+  font-size: 18px;
+  color: white;
+  height: fit-content;
+  width: fit-content;
+}
+.search-card {
+  background-color: #f8fafc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 91px;
+}
+.search-icon {
+  width: 21px;
+  padding: 3px;
+}
+.show-passwords-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.checkbox {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+.no-passwords-img {
+  width: 100%;
+}
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.password-list {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 120px;
+    padding-top: 30px;
+  }
+
+  .add-password-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .password-manager-img {
+    width: 80%;
+  }
+  .add-password-card {
+    background-color: #454f84;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    height: auto;
+  }
+  .password-manager-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+  .no-passwords-img {
+    width: 35%;
+  }
+  .app-logo {
+    width: 160px;
+    height: 60px;
+  }
+  .password-text {
+    font-size: 20px;
+  }
+  .password-count {
+    background-color: transparent;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid #c3caea;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+  }
+  .search-card {
+    width: 33%;
+    padding: 10px;
+  }
+  .input-element {
+    font-size: 16px;
+  }
+  .search-icon {
+    width: 34px;
+  }
+}
